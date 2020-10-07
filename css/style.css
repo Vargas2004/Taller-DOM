@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: flex-start;
+   }
+video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    z-index: -1;
+}
+main{
+width: 40%;
+background: rgba(0,0,0,0.5);
+color: #fff;
+margin: 5%;
+}
+.popo{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+.letra{
+    font-family: 'Lobster', cursive;
